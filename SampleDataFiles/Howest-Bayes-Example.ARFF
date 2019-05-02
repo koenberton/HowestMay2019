@@ -1,0 +1,26 @@
+% manually created to illustrate concepts set out by Tim Jones
+
+@RELATION  Howest-Bayes-Voorbeeld
+
+@ATTRIBUTE weather {Sunny,Snowing,Windy}
+@ATTRIBUTE Temperature {Cold,Freezing}
+@ATTRIBUTE Ski  {Yes,No}
+
+
+@DATA
+Sunny,Cold,Yes
+Snowing,Cold,Yes
+Sunny,Freezing,Yes
+Windy,Cold,No
+Snowing,Cold,No
+Sunny,Cold,Yes
+Windy,Cold,No
+Snowing,Cold,Yes
+Snowing,Cold,Yes
+Windy,Freezing,No
+Sunny,Cold,No
+Snowing,Cold,Yes
+Windy,Freezing,No
+Windy,Cold,Yes
+Snowing,Cold,Yes
+
